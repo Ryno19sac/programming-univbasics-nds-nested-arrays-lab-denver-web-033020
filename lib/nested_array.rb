@@ -53,10 +53,10 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  index = [row][column]
+ 
  matrix_lookup = [[row], [column]]
  
- return index 
+ return [row][column]
   
   
   # Given any matrix (array of arrays), a row index and a column index, 
