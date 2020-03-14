@@ -56,7 +56,7 @@ def matrix_lookup(matrix, row, column)
  
 matrix_lookup = [row][column]
  
- return item
+ return matrix
   
   
   # Given any matrix (array of arrays), a row index and a column index, 
