@@ -54,9 +54,9 @@ end
 
 def matrix_lookup(matrix, row, column)
  
-matrix_lookup[[row], [column]]
+indexOfmatrix[[row], [column]]
  
- return matrix[row][column]
+ return matrix
   
   
   # Given any matrix (array of arrays), a row index and a column index, 
